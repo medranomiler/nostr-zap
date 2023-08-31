@@ -403,15 +403,14 @@ export const injectCSS = () => {
         cursor: not-allowed;
       }
       .nostr-zap-dialog .cta-button {
-        background-color: #7f00ff;
-        color: #fff;
+        background-color: #FADA5E;
+        color: black;
         width: 100%;
         max-width: 100%;
         margin-top: 16px;
+        border: 1px solid #FADA5E;
       }
-      .nostr-zap-dialog .cta-button:hover {
-        background-color: indigo;
-      }
+
       .nostr-zap-dialog .close-button {
         background-color: inherit;
         color: black;
