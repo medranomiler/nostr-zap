@@ -344,12 +344,15 @@ export const injectCSS = () => {
         min-width: 376px;
         margin: auto;
         box-sizing: content-box;
-        border: none;
-        border-radius: 10px;
+        border: 1px solid white;
         padding: 36px;
         text-align: center;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      .nostr-zap-dialog[open]{
+        background-color: black;
+        color: white;
       }
       .nostr-zap-dialog[open],
       .nostr-zap-dialog form {
@@ -363,16 +366,19 @@ export const injectCSS = () => {
       .nostr-zap-dialog img {
         display: inline;
         border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
       }
       .nostr-zap-dialog h2 {
         font-size: 1.5em;
         font-weight: bold;
-        color: black;
+        color: white;
       }
       .nostr-zap-dialog p {
         font-size: 1em;
         font-weight: normal;
-        color: black;
+        color: white;
       }
       .nostr-zap-dialog h2,
       .nostr-zap-dialog p,
@@ -383,20 +389,14 @@ export const injectCSS = () => {
       .nostr-zap-dialog button {
         background-color: inherit;
         padding: 12px 0;
-        border-radius: 5px;
-        border: none;
         font-size: 16px;
         cursor: pointer;
-        border: 1px solid rgb(226, 232, 240);
+        border: 1px solid white;
         width: 100px;
         max-width: 100px;
         max-height: 52px;
         white-space: nowrap;
-        color: black;
         box-sizing: border-box;
-      }
-      .nostr-zap-dialog button:hover {
-        background-color: #edf2f7;
       }
       .nostr-zap-dialog button:disabled {
         opacity: 0.5;
@@ -538,6 +538,7 @@ export const injectCSS = () => {
         margin-top: 24px;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
         cursor: pointer;
+        color: black;
       }
       .nostr-zap-dialog select[name="lightning-wallet"]:focus {
         outline: none;

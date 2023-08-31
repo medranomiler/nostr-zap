@@ -1,5 +1,5 @@
 {
-  "name": "nostr-zap",
+  "name": "nostr-zap-fork",
   "version": "0.21.0",
   "description": "Zap any Nostr npub from anywhere.",
   "source": "src/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git@github.com/SamSamskies/nostr-zap.git"
+    "url": "git+https://git@github.com:medranomiler/nostr-zap.git"
   },
   "keywords": [
     "nostr",
@@ -25,12 +25,12 @@
     "bitcoin",
     "lightning"
   ],
-  "author": "Sam Samskies",
+  "author": "Darren M",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SamSamskies/nostr-zap/issues"
+    "url": "https://github.com/medranomiler/nostr-zap/issues"
   },
-  "homepage": "https://github.com/SamSamskies/nostr-zap#readme",
+  "homepage": "https://github.com/medranomiler/nostr-zap#readme",
   "devDependencies": {
     "parcel": "^2.9.3",
     "prettier": "2.8.8"
