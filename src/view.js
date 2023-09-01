@@ -423,6 +423,9 @@ export const injectCSS = () => {
         right: 8px;
         padding: 12px;
         border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .nostr-zap-dialog .preset-zap-options-container {
         display: flex;
