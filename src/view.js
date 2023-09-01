@@ -397,6 +397,7 @@ export const injectCSS = () => {
         max-height: 52px;
         white-space: nowrap;
         box-sizing: border-box;
+        color: white;
       }
       .nostr-zap-dialog button:disabled {
         opacity: 0.5;
@@ -413,7 +414,7 @@ export const injectCSS = () => {
 
       .nostr-zap-dialog .close-button {
         background-color: inherit;
-        color: black;
+        color: white;
         border-radius: 50%;
         width: 42px;
         height: 42px;

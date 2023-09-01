@@ -1,6 +1,8 @@
 # nostr-zap
 [![NPM](https://img.shields.io/npm/v/nostr-zap.svg)](https://www.npmjs.com/package/nostr-zap)
 
+This is a dark mode theme fork of Sam Samskies' nostr-zap. I take no credit for the idea or functionality of this component. Special thanks to Sam for his open source contribution to the nostr ecosystem. 
+
 Zap any Nostr npub or note from anywhere.
 
 ## Usage
@@ -22,7 +24,7 @@ If the user doesn't have an ext that supports nip-07 installed or does not autho
 
 Add this script tag right before the bottom closing body tag.
 ```js
-<script src="https://cdn.jsdelivr.net/npm/nostr-zap-fork@0.21.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/nostr-zap-fork@0.21.3"></script>
 ```
 
 Example Sandbox with 1 button: https://codesandbox.io/s/nostr-zap-from-anywhere-poc-wiyzgm
